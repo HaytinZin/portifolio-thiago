@@ -30,10 +30,10 @@ function mudarImagemDeFundo() {
     const switchBtn = document.getElementById("trocar-fundo");
 
     if (switchBtn.checked) {
-        body.style.backgroundImage = "url('/imagens/bg-desktop-light.jpg')";
+        body.style.backgroundImage = "url('../imagens/bg-desktop-light.jpg')";
         body.classList.add("modo-claro");
     } else {
-        body.style.backgroundImage = "url('/imagens/bg-desktop.jpg')";
+        body.style.backgroundImage = "url('../imagens/bg-desktop.jpg')";
         body.classList.remove("modo-claro");
     }
 }
